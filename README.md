@@ -30,6 +30,7 @@ Finance Manager is a simple C++ application to manage personal finances. It allo
 2. Compile the project:
 
    ```sh
+   mkdir build
    g++ -std=c++11 -Iinclude src/main.cpp src/FinanceManager.cpp src/Transaction.cpp src/FileManager.cpp -o build/finance_manager
    ```
 
